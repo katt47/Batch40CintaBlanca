@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./bootrstap.css">
+  
+    <title>Document</title>
+</head>
+
+<body>
+
+  <div class="padre">
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Nombre</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="preguntaNOMBRE">
+    </div>
+
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Dirección</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="preguntaDIRECCION">
+    </div>
+
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Teléfono</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="preguntaTELEFONO">
+    </div>
+
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Con piña o sin piña</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="preguntaPINA">
+    </div>
+
+<!-- BOTON -->
+    <button id="boton" type="button" class="btn btn-warning">Warning</button>
+
+<!-- CARD RESPUESTA -->
+
+    <div class="card none" id="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 id="textoNOMBRE" class="card-title"></h5>
+        <h6 id="textoDIRECCION" class="card-subtitle mb-2 text-muted"></h6>
+        <p id="textoTELEFONO" class="card-text"></p>
+        <img  id="hawaiana" class="none" src="https://www.hola.com/imagenes/cocina/recetas/20200120158504/pizza-hawaiana-o-pizza-tropical/0-770-827/pizza-hawaiana-m.jpg" alt="hawaiana">
+        <img  id="peperoni" class="none" src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/que-es-el-pepperoni.jpg" alt="peperoni">
+        <img id="not" class="none" src="https://lh3.googleusercontent.com/proxy/-tIu1HnZJT_PPpCUJyo3HSNwQ5qmAQnbsY4V2MEvQcnBbhpXbXO92ah0KdG9sC1Og4qV1PeEk_-euETx6SH-gcU34OttxL870hJYdi9g0-DBtf1K1pA" alt="">
+        
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <script src="./main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

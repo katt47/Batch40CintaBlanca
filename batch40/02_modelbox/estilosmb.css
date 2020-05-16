@@ -1,0 +1,30 @@
+*{
+
+}
+
+
+h1 {
+
+    display: inline-block;
+border: 1px cadetblue solid;
+width: 70px;
+margin: 50px 100px;
+
+}
+
+h2{
+    display: inline-block;
+    border: 1px cadetblue solid;
+    width: 50px;
+    margin-left: 90px;
+    margin-right: 80px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+p{
+    display: inline-block;
+    border: 1px cadetblue solid;
+    margin: 50px 60px 70px 80px;
+    
+}

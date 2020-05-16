@@ -1,0 +1,107 @@
+/* *{
+
+    background-color: green;
+} */
+
+.banderac {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    border: black solid 1px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: rgb(40, 40, 141);
+   
+}
+
+.blanco1 {
+
+     width: 35%;
+    height: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 1px black solid; */
+    background-color: white;
+
+}
+
+
+.rojoizq1 {
+
+    display: flex;
+    /* border: 1px red solid; */
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
+
+.blanco2 {
+
+    width: 35%;
+    height: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /* border: 1px black solid; */
+    background-color: white;
+
+}
+
+
+.rojoizq2 {
+
+   display: flex;
+   /* border: 1px red solid; */
+   width: 90%;
+   height: 90%;
+   background-color: red;
+}
+
+.blanco3 {
+
+    width: 55%;
+    height: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* border: 1px green solid; */
+    background-color: white;
+
+}
+
+
+.rojoizq3 {
+
+   display: flex;
+   /* border: 1px red solid; */
+   width: 90%;
+   height: 90%;
+   background-color: red;
+}
+
+
+.blanco4 {
+
+    width: 55%;
+    height: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* border: 1px black solid; */
+    background-color: white;
+
+}
+
+
+.rojoizq4 {
+
+   display: flex;
+   /* border: 1px red solid; */
+   width: 90%;
+   height: 90%;
+   background-color: red;
+}
+
+

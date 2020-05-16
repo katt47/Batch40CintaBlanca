@@ -1,0 +1,131 @@
+.todo {
+    border: 1px black solid;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.padre{
+    border: 1px blue solid;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hijo1{
+    border: 1px cyan solid;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.hijo2{
+    border: 1px cyan solid;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo3{
+    border: 1px cyan solid;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.nietos1{
+    border: 1px green solid;
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
+
+.nietos2{
+    border: 1px green solid;
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
+
+
+.nietos3{
+    border: 1px green solid;
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
+
+
+.madre{
+    border: 1px blue solid;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.hija1{
+    border: 1px cyan solid;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hija2{
+    border: 1px cyan solid;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hija3{
+    border: 1px cyan solid;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nietas1{
+    border: 1px green solid;
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
+
+.nietas2{
+    border: 1px green solid;
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
+
+.nietas3{
+    border: 1px green solid;
+    width: 10%;
+    height: 10%;
+    display: flex;
+}
